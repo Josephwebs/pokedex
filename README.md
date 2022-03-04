@@ -32,7 +32,7 @@ se instalo para las rutas "react-router-dom": "^6.2.2" con el comando
 
 -   **npm i react-router-dom**
 
-Para realizar la busqueda de los pokemones para mostrarlos en pantalla se tendria que usar un submit de tipo text en el cual se escibra el id o nombre del pokemon que se desea buscar. 
+Para realizar la busqueda de los pokemones para mostrarlos en pantalla se tendria que usar un submit de tipo text en el cual se escriba el id o nombre del pokemon que se desea buscar. 
 
 Crear una ruta para el Pokemon deseado y mostrarlo en pantalla en otro componente que tendra los datos del pokemon usando una de las funciones ya creadas en el index.js para listar a todos los pokemones.
 
