@@ -32,7 +32,6 @@ h1 {
 }
 
 .img-container {
-  background-image: url("/public/blob.svg");
   background-repeat: no-repeat;
   background-position: center;
 }

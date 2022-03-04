@@ -12,7 +12,6 @@ ReactDOM.render(
 );
 
 serviceWorker.unregister();
-
 const pokemonContainer = document.querySelector(".pokemon-container");
 const spinner = document.querySelector("#spinner");
 const previous = document.querySelector("#previous");
@@ -135,6 +134,8 @@ function removeChildNodes(parent) {
     parent.removeChild(parent.firstChild);
   }
 }
+
+
 
 fetchPokemons(offset, limit);
 
