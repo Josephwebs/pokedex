@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import Header from './components/Header';
+import Search from './components/Search';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App text-center'>
+        <Header/>
+        <Search/>
+    <div className="pokemon-container">
     </div>
+    <nav className="pagination" aria-label="...">
+        <ul className="pagination">
+          <li className="page-item" id="previous">
+            <a className="page-link" href="#" tabindex="-1">Anterior</a>
+          </li>
+          <li className="page-item" id="next">
+            <a className="page-link" href="#">Siguiente</a>
+          </li>
+        </ul>
+      </nav>
+    <div id="spinner" className="spinner-border text-light" role="status">
+        <span className="visually-hidden">Loading...</span>
+      </div>
+    <script src="./main.js"></script>
+    </div>
+    
   );
 }
 
