@@ -26,46 +26,17 @@ Una vez instaladas las dependencias, ya esta todo lo necesario para correr el pr
 
 ¡Y ya está! En tu [Localhost](http://localhost:3000) ya esta corriendo el proyecto.
 
-### Objetivo
+### Descripcion
 
-El postulante debe desarrollar una aplicación web que cumpla las siguientes funciones:
+se instalo para las rutas "react-router-dom": "^6.2.2" con el comando 
 
--   _Crear una página principal en donde se listen todos los pokemones_
--   _Crear una página para que al haber clickeado a un pokemon, se desplieguen los detalles de este pokemon_ Por ej: /pokemon/4
+-   **npm i react-router-dom**
 
-![Landing Pokemones](https://external-preview.redd.it/BbzNLQJmv1z0pn4Wkb0OPsciy3ntDvctKlKLnN8aA6c.png?width=640&crop=smart&auto=webp&s=dc798f71860aac34b9d2ec1763343a2164e6bf79 "Landing")
+Para realizar la busqueda de los pokemones para mostrarlos en pantalla se tendria que usar un submit de tipo text en el cual se escibra el id o nombre del pokemon que se desea buscar. 
 
-_Esta imagen es solo una referencia y la idea es que el diseño sea completamente tuyo._
+Crear una ruta para el Pokemon deseado y mostrarlo en pantalla en otro componente que tendra los datos del pokemon usando una de las funciones ya creadas en el index.js para listar a todos los pokemones.
 
-### API
+Los pokemones se muestran en pantalla con imagen numero de id y nombre,  sus habilidades se muestran junto con un efecto de giro en la tarjeta en cuanto se ponga el mouse encima para luego dar a conocer el numero de la habilidad en un margen de 150%.
 
-Los datos se deben obtener desde la esta API REST [pokeapi](https://pokeapi.co/)
 
-### Dependencias ya instaladas
 
-Para facilitar el proceso te dejamos estas dependencias ya instaladas en el proyecto, es obligación ocuparlas.
-
--   [React Router](https://www.npmjs.com/package/react-router)
--   [Axios](https://github.com/axios/axios)
-
-Por otra parte es obligación que ocupes una de estas 3 librerías para lo que es css
-
--   [Tailwindcss](https://tailwindcss.com/)
--   [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
--   [Bulma.css](https://bulma.io/)
-
-Aquí te dejamos algunas librerías que pueden ser de gran ayuda en la construcción de componentes
-
--   [Antd](https://ant.design/components/overview/)
--   [Material UI](https://material-ui.com/)
--   [Chakra UI](https://chakra-ui.com/)
-
-### Valoración
-
-Las tareas y funcionalidades a realizar dentro de clyc en la práctica tienen como objetivo el desarrollo de Front-End, por lo tanto, esperamos que des lo mejor de ti en cuanto a diseño.
-
-Dentro de las tareas que se realizaran en algún momento están incluidas las representaciones de datos mediante gráficos, por lo que si tienes tiempo de sobra, seria interesante ver información de los pokemones usando esta libreria [visx](https://airbnb.io/visx/) ([Link a Github](https://github.com/airbnb/visx)).
-
-### Envio del proyecto
-
-Una vez finalizado, adjunta el link del repositorio y envialo este correo [mario@clyc.me](mailto:mario@clyc.me).
